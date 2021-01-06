@@ -701,8 +701,6 @@ GameObject:
   - component: {fileID: 647391992}
   - component: {fileID: 647391991}
   - component: {fileID: 647391990}
-  - component: {fileID: 647391989}
-  - component: {fileID: 647391988}
   m_Layer: 0
   m_Name: SkyTileSprite
   m_TagString: Untagged
@@ -710,42 +708,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!68 &647391988
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647391987}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.76, y: 2.1229463}
-  - {x: -0.76830417, y: -6.2032285}
---- !u!68 &647391989
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 647391987}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -3.2201002, y: -6.2031846}
-  - {x: -3.2181904, y: 2.106022}
 --- !u!50 &647391990
 Rigidbody2D:
   serializedVersion: 4

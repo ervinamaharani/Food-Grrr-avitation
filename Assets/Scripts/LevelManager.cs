@@ -33,7 +33,7 @@ public class LevelManager : MonoBehaviour
     {
         score += numberOfFood;
         scoreText.text = "Score: " + score;
-        if (score == 5 * SceneManager.GetActiveScene().buildIndex)
+        if (score == 10 * SceneManager.GetActiveScene().buildIndex)
         {
             StartCoroutine(ChangeScene());
         }
@@ -43,7 +43,7 @@ public class LevelManager : MonoBehaviour
     {
         score += numberOfObj;
         scoreText.text = "Score: " + score;
-        if (score == 5 * SceneManager.GetActiveScene().buildIndex)
+        if (score == 10 * SceneManager.GetActiveScene().buildIndex)
         {
             StartCoroutine(ChangeScene());
         }
